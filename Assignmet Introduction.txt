@@ -1,0 +1,36 @@
+API Testing Assignment
+
+
+This project involves testing an API using automation scripts written in Python. The API manages user accounts, allowing users to create, delete, deposit, and withdraw funds from their accounts. The purpose of this project is to ensure that the API is robust, reliable, and capable of handling user requests effectively. The project includes six different testing scenarios, which are detailed below.
+
+Testing Scenarios
+
+1- User Account Creation: This scenario tests the ability of the API to handle requests from users to create new accounts. The API should be able to create unique accounts for each user and manage them effectively.
+
+2- User Account Deletion: This scenario tests the ability of the API to handle requests from users to delete their accounts the deletion is done with the help od ID. The API should be able to delete the specified account and ensure that any associated data is also deleted.
+
+3- Deposit and Withdraw Funds: This scenario tests the ability of the API to handle requests from users to deposit and withdraw funds from their accounts. The API should be able to update account balances accurately.
+
+4- Minimum Account Balance: This scenario tests the ability of the API to enforce the minimum account balance rule. The API should prevent users from making transactions that would result in an account balance of less than $100.
+
+5- Maximum Withdrawal Limit: This scenario tests the ability of the API to enforce the maximum withdrawal limit rule. The API should prevent users from withdrawing more than 90% of their total balance from an account in a single transaction.
+
+6- Maximum Deposit Limit: This scenario tests the ability of the API to enforce the maximum deposit limit rule. The API should prevent users from depositing more than $10,000 in a single transaction.
+
+Conclusion
+
+Overall, this project aims to ensure that the API is capable of handling user requests effectively and is reliable in managing user accounts. By testing the six different scenarios, we can identify any issues or bugs in the API and address them promptly. The results of this project will help ensure that the API is robust and reliable, providing a better user experience for our customers.
+
+
+NOTE : Although the Testcases are passing on the basis of in memory datastructures and for the API responce I have used demo API for giving the desired responce 
+
+
+
+
+
+
+
+
+* For first two scenario for creating multiple users and deleting the user I have used hashmap DS and that is also in a dynamic way that will work in "Real Time" that is user can give the values for the user that is user defined and the actions are performed on the basis of that data only 
+
+* for Other four scenarios I have used static data I have made 3 Users in code and I am performing actions on that, In this case the operations are not real time we will get the results for the testcases but the values for the users in backend will not change 
