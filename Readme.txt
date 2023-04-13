@@ -1,9 +1,9 @@
 Assignment API TEsting scripts 
 	
 
-The assignment contains two type of approaches for the requirements and all will give the API responce on passing and failing
+The assignment contains two type of approaches for the requirements and will test the API responce.
 
-1- For first two requirements  of multiple users and deleting those users by providing the ID are stored in a Python Dictionary and will take dynamic value that is user defined 
+1- For first two requirements  of multiple users and deleting users by providing the ID are stored in a Python Dictionary and will take dynamic value that is user defined 
 
 2- For other requirements User are created already and the tasks will be performed on a static data 
 
