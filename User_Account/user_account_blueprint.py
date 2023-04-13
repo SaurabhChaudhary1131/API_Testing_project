@@ -9,7 +9,7 @@ class UserAccount:
         user = {"name": input(), "email": input(), "salary": input(), "id": input()}
         stringify = json.dumps(user)
         open("data.json", "w").write(stringify)
-        val = {user["id"]: user} #puchna h ki upr dict me ese append kia ?
+        val = {user["id"]: user} 
         self.list_of_users.update(val)
         print(self.list_of_users)
         return user
